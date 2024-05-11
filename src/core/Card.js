@@ -135,7 +135,7 @@ const Card = ({
         {shouldRedirect(redirect)}
         <ShowImage item={product} url='product' />
         <p className='card-text mt-2'>{product.description}</p>
-        <p className='black-10'>Price: {product.price}.00LKR</p>
+        <p className='black-10'>Price: {product.price}.00BDT</p>
         <p className='black-9'>
           Category: {product.category && product.category.name}
         </p>
